@@ -23,7 +23,7 @@ spec:
       containers:
       - name: eks-example
         image: 987210092513.dkr.ecr.us-east-1.amazonaws.com/mglynn-demo
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
           name: http
